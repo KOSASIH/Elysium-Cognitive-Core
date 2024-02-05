@@ -10,7 +10,7 @@ An super advanced high-tech artificial general intelligent system.
 - [Contributor Guide](#contributor-guide)
 - [Tutorials](#tutorials)
 - [Roadmap](#roadmap)
-- [Aknowledgement](
+- [Aknowledgement](aknowledgement.md) 
 
 # Description 
 
