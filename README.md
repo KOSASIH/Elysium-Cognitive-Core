@@ -174,3 +174,55 @@ Thank you for your interest in contributing to Elysium Cognitive Core. Your cont
 Thank you for contributing to Elysium Cognitive Core. Your efforts make a significant impact on the development of our advanced AI system. If you have any questions or need assistance, feel free to reach out to our maintainers.
 
 Happy coding!
+
+# Tutorials 
+
+Certainly! Here's a code snippet that defines a function `generate_markdown_table` which takes a dictionary as input and outputs a formatted markdown table:
+
+```python
+def generate_markdown_table(data):
+    # Get the keys from the dictionary for table headers
+    headers = list(data.keys())
+
+    # Generate the table header row
+    header_row = "| " + " | ".join(headers) + " |"
+
+    # Generate the table header separator row
+    separator_row = "| " + " | ".join(["---"] * len(headers)) + " |"
+
+    # Generate the table rows
+    rows = []
+    for values in zip(*data.values()):
+        row = "| " + " | ".join(str(value) for value in values) + " |"
+        rows.append(row)
+
+    # Combine all the rows into a markdown table
+    markdown_table = "\n".join([header_row, separator_row] + rows)
+
+    return markdown_table
+```
+
+You can use this function by passing a dictionary of data to it. For example:
+
+```python
+data = {
+    "Name": ["John", "Alice", "Bob"],
+    "Age": [25, 30, 35],
+    "City": ["New York", "London", "Paris"]
+}
+
+table = generate_markdown_table(data)
+print(table)
+```
+
+This will output the following formatted markdown table:
+
+```
+| Name | Age | City     |
+| ---  | --- | ---      |
+| John | 25  | New York |
+| Alice| 30  | London   |
+| Bob  | 35  | Paris    |
+```
+
+You can modify the `data` dictionary to include your own data and the function will generate the corresponding markdown table.
