@@ -177,7 +177,7 @@ Happy coding!
 
 # Tutorials 
 
-**Generate Maradona Table**: 
+**Generate Markdown Table**: 
 
 Certainly! Here's a code snippet that defines a function `generate_markdown_table` which takes a dictionary as input and outputs a formatted markdown table:
 
