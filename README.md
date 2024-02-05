@@ -399,6 +399,31 @@ def count_occurrences(lst, element):
 
 You can use the `count_occurrences` function to count the number of occurrences of a specific element in a list. Simply pass the list and the element as arguments to the function. It will iterate over the list and increment the count each time it encounters the specified element. Finally, it will return the total count.
 
+**9. Factorial**: 
 
+To calculate the factorial of a given number, you can use the following code:
 
+```python
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+```
 
+This code defines a recursive function called `factorial` that takes in a number `n` as input. It checks if `n` is equal to 0, and if so, returns 1 (since the factorial of 0 is defined as 1). Otherwise, it recursively calls the `factorial` function with `n-1` as the argument and multiplies the result with `n`. The recursion continues until `n` reaches 0.
+
+You can use this function to calculate the factorial of a given number by calling it with the desired number as an argument. For example:
+
+```python
+number = 5
+result = factorial(number)
+print(f"The factorial of {number} is {result}")
+```
+
+Output:
+```
+The factorial of 5 is 120
+```
+
+Note: The factorial function is only defined for non-negative integers.
