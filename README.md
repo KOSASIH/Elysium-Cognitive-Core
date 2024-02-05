@@ -177,7 +177,7 @@ Happy coding!
 
 # Tutorials 
 
-**Generate Markdown Table**: 
+**1. Generate Markdown Table**: 
 
 Certainly! Here's a code snippet that defines a function `generate_markdown_table` which takes a dictionary as input and outputs a formatted markdown table:
 
@@ -229,7 +229,7 @@ This will output the following formatted markdown table:
 
 You can modify the `data` dictionary to include your own data and the function will generate the corresponding markdown table. 
 
-**Generate Bullet List**: 
+**2. Generate Bullet List**: 
 
 ```python
 def generate_bullet_list(data):
@@ -251,4 +251,24 @@ Output:
 - Task 1
 - Task 2
 - Task 3
+```
+
+**3. Generate Markdown Heading**: 
+
+```python
+def generate_markdown_heading(level, content):
+    if level < 1 or level > 6:
+        raise ValueError("Heading level must be between 1 and 6")
+    
+    heading_symbol = '#' * level
+    return f"{heading_symbol} {content}"
+
+# Example usage
+heading = generate_markdown_heading(1, "Main Heading")
+print(heading)
+```
+
+Output:
+```
+# Main Heading
 ```
