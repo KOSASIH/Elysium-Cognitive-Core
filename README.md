@@ -427,3 +427,32 @@ The factorial of 5 is 120
 ```
 
 Note: The factorial function is only defined for non-negative integers.
+
+**10. Is Prime**: 
+
+To create a function that checks if a given number is prime, you can use the following code:
+
+```python
+def is_prime(number):
+    if number <= 1:
+        return False
+    for i in range(2, int(number ** 0.5) + 1):
+        if number % i == 0:
+            return False
+    return True
+```
+
+This function takes a number as an input and returns `True` if the number is prime, and `False` otherwise. It uses a basic primality test by iterating from 2 to the square root of the number and checking if any of the numbers divide the given number evenly. If any divisor is found, the number is not prime.
+
+You can use the function like this:
+
+```python
+number = 17
+if is_prime(number):
+    print(f"{number} is a prime number.")
+else:
+    print(f"{number} is not a prime number.")
+```
+
+This will output: `17 is a prime number.` 
+
