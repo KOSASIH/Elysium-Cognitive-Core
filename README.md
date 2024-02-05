@@ -101,3 +101,76 @@ Elysium Cognitive Core is dedicated to addressing a diverse range of complex pro
 20. **Interdisciplinary Collaboration:** ECC aims to facilitate collaboration across diverse fields by providing insights and support for interdisciplinary research, fostering innovation at the intersection of different domains.
 
 Elysium Cognitive Core's commitment to solving a wide array of challenges reflects its ambition to be a versatile and impactful force in advancing technology for the betterment of humanity.
+
+# Contributor Guide 
+
+## Elysium Cognitive Core GitHub Repository Contributor Guide
+
+### Welcome Contributors!
+
+Thank you for your interest in contributing to Elysium Cognitive Core. Your contributions play a crucial role in advancing our mission. To ensure a smooth collaboration, please follow these guidelines:
+
+### Getting Started:
+
+1. **Fork the Repository:**
+   - Fork the Elysium Cognitive Core repository to your GitHub account.
+
+2. **Clone the Repository:**
+   - Clone your forked repository to your local machine:
+     ```
+     git clone https://github.com/KOSASIH/elysium-cognitive-core.git
+     ```
+
+3. **Create a Branch:**
+   - Create a new branch for your changes:
+     ```
+     git checkout -b feature/your-feature-name
+     ```
+
+### Making Changes:
+
+4. **Code and Test:**
+   - Make your changes, ensuring that the code adheres to our coding standards.
+   - Write tests for new features or bug fixes.
+
+5. **Commit Changes:**
+   - Commit your changes with a clear and concise commit message:
+     ```
+     git commit -m "Add your detailed commit message here"
+     ```
+
+6. **Pull Latest Changes:**
+   - Before pushing changes, pull the latest changes from the main repository:
+     ```
+     git pull origin main
+     ```
+
+7. **Resolve Conflicts:**
+   - If there are conflicts, resolve them locally before pushing your changes.
+
+### Submitting Changes:
+
+8. **Push Changes:**
+   - Push your changes to your forked repository:
+     ```
+     git push origin feature/your-feature-name
+     ```
+
+9. **Create a Pull Request:**
+   - Open a Pull Request (PR) from your branch to the main repository's `main` branch.
+   - Provide a detailed description of your changes and reference any relevant issues.
+
+### Code Review:
+
+10. **Code Review:**
+    - Expect feedback from maintainers and be responsive to any requested changes.
+    - Address comments and update your branch as necessary.
+
+11. **Merge:**
+    - Once approved, your changes will be merged into the main branch.
+
+### Thank You!
+
+Thank you for contributing to Elysium Cognitive Core. Your efforts make a significant impact on the development of our advanced AI system. If you have any questions or need assistance, feel free to reach out to our maintainers.
+
+Happy coding!
