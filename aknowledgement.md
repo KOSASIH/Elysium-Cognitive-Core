@@ -25,6 +25,6 @@ Thank you for being an integral part of the Elysium Cognitive Core family.
 
 With gratitude,
 
-KOSASIH
+[KOSASIH](https://www.linkedin.com/in/kosasih-81b46b5a) 
 
 The Elysium Cognitive Core Team
