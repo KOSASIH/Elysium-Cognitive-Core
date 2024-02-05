@@ -298,7 +298,7 @@ average = calculate_average(numbers)
 print(average)  # Output: 3.0
 ```
 
-**5. Short String**: 
+**5. Sort Strings**: 
 
 ```python
 def sort_strings(strings):
