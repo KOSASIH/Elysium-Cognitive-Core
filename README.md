@@ -297,3 +297,33 @@ numbers = [1, 2, 3, 4, 5]
 average = calculate_average(numbers)
 print(average)  # Output: 3.0
 ```
+
+**5. Short String**: 
+
+```python
+def sort_strings(strings):
+    """
+    Sorts a list of strings in alphabetical order.
+
+    Args:
+        strings (list): A list of strings to be sorted.
+
+    Returns:
+        list: The sorted list of strings.
+    """
+    sorted_strings = sorted(strings)
+    return sorted_strings
+```
+
+Example usage:
+
+```python
+strings = ["banana", "apple", "cherry", "date"]
+sorted_strings = sort_strings(strings)
+print(sorted_strings)
+```
+
+Output:
+```
+['apple', 'banana', 'cherry', 'date']
+```
