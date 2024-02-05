@@ -361,7 +361,7 @@ print(is_palindrome("A man a plan a canal Panama"))  # True
 
 Note: The function removes spaces and converts the string to lowercase before checking if it is a palindrome.
 
-**7. Convert To Lowercase ( String ) 
+**7. Convert To Lowercase ( String )**: 
 
 ```python
 def convert_to_lowercase(string):
