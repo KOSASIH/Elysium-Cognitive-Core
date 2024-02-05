@@ -481,3 +481,80 @@ def find_maximum(numbers):
 ```
 
 This function `find_maximum` takes in a list of numbers and returns the maximum element in the list. It iterates through the list and keeps track of the maximum value found so far. Finally, it returns the maximum value. If the input list is empty, the function returns `None`.
+
+**12. Calculate Sum ( Numbers )**: 
+
+Here is a code snippet that implements a function to calculate the sum of a list of numbers:
+
+```python
+def calculate_sum(numbers):
+    """
+    Calculates the sum of a list of numbers.
+    
+    Args:
+        numbers (list): A list of numbers.
+        
+    Returns:
+        int: The sum of the numbers.
+    """
+    return sum(numbers)
+```
+
+You can use this function by passing a list of numbers as an argument, and it will return the sum of those numbers. For example:
+
+```python
+numbers = [1, 2, 3, 4, 5]
+result = calculate_sum(numbers)
+print(result)  # Output: 15
+```
+
+Feel free to modify the code according to your specific requirements.
+
+**13. Remove Duplicates**: 
+
+```python
+def remove_duplicates(lst):
+    """
+    Removes duplicates from a list and returns a new list without duplicates.
+    
+    Args:
+    lst (list): The input list.
+    
+    Returns:
+    list: A new list without duplicates.
+    """
+    return list(set(lst))
+```
+
+Example usage:
+```python
+numbers = [1, 2, 3, 4, 4, 5, 2, 6, 1]
+unique_numbers = remove_duplicates(numbers)
+print(unique_numbers)  # Output: [1, 2, 3, 4, 5, 6]
+```
+
+**14. Reverse String ( Input String )**: 
+
+```python
+def reverse_string(input_string):
+    """
+    Reverses the given string.
+
+    Args:
+        input_string (str): The string to be reversed.
+
+    Returns:
+        str: The reversed string.
+    """
+    return input_string[::-1]
+```
+
+Example usage:
+```python
+input_string = "Hello, World!"
+reversed_string = reverse_string(input_string)
+print(reversed_string)  # Output: "!dlroW ,olleH"
+```
+
+# Roadmap 
+
