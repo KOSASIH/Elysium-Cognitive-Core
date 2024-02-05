@@ -177,6 +177,8 @@ Happy coding!
 
 # Tutorials 
 
+**Generate Maradona Table**: 
+
 Certainly! Here's a code snippet that defines a function `generate_markdown_table` which takes a dictionary as input and outputs a formatted markdown table:
 
 ```python
@@ -225,4 +227,28 @@ This will output the following formatted markdown table:
 | Bob  | 35  | Paris    |
 ```
 
-You can modify the `data` dictionary to include your own data and the function will generate the corresponding markdown table.
+You can modify the `data` dictionary to include your own data and the function will generate the corresponding markdown table. 
+
+**Generate Bullet List**: 
+
+```python
+def generate_bullet_list(data):
+    markdown = ""
+    for item in data:
+        markdown += f"- {item}\n"
+    return markdown
+```
+
+Example usage:
+```python
+data = ["Task 1", "Task 2", "Task 3"]
+markdown = generate_bullet_list(data)
+print(markdown)
+```
+
+Output:
+```
+- Task 1
+- Task 2
+- Task 3
+```
