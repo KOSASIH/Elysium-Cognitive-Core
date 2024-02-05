@@ -386,9 +386,18 @@ print(lowercase_string)  # Output: hello world!
 
 Note: This function utilizes the built-in `lower()` method of the string class in Python to convert the string to lowercase.
 
+**8. Count Occurrences**: 
 
+```python
+def count_occurrences(lst, element):
+    count = 0
+    for item in lst:
+        if item == element:
+            count += 1
+    return count
+```
 
-
+You can use the `count_occurrences` function to count the number of occurrences of a specific element in a list. Simply pass the list and the element as arguments to the function. It will iterate over the list and increment the count each time it encounters the specified element. Finally, it will return the total count.
 
 
 
