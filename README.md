@@ -272,3 +272,28 @@ Output:
 ```
 # Main Heading
 ```
+
+**4. Calculate Average**: 
+
+```python
+def calculate_average(numbers):
+    """
+    Calculate the average of a list of numbers.
+
+    Args:
+        numbers (list): A list of numbers.
+
+    Returns:
+        float: The average of the numbers.
+    """
+    total = sum(numbers)
+    average = total / len(numbers)
+    return average
+```
+
+Example usage:
+```python
+numbers = [1, 2, 3, 4, 5]
+average = calculate_average(numbers)
+print(average)  # Output: 3.0
+```
