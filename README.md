@@ -456,3 +456,28 @@ else:
 
 This will output: `17 is a prime number.` 
 
+**11. Find Maximum**: 
+
+```python
+def find_maximum(numbers):
+    """
+    Finds the maximum element in a list of numbers.
+
+    Args:
+    - numbers (list): A list of numbers.
+
+    Returns:
+    - The maximum element in the list.
+    """
+    if not numbers:
+        return None
+
+    maximum = numbers[0]
+    for num in numbers:
+        if num > maximum:
+            maximum = num
+
+    return maximum
+```
+
+This function `find_maximum` takes in a list of numbers and returns the maximum element in the list. It iterates through the list and keeps track of the maximum value found so far. Finally, it returns the maximum value. If the input list is empty, the function returns `None`.
