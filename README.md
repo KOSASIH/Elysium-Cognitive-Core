@@ -2,6 +2,7 @@
 
 [![Deploy Jekyll with GitHub Pages dependencies preinstalled](https://github.com/KOSASIH/Elysium-Cognitive-Core/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/KOSASIH/Elysium-Cognitive-Core/actions/workflows/jekyll-gh-pages.yml)
 [![CodeQL](https://github.com/KOSASIH/Elysium-Cognitive-Core/actions/workflows/codeql.yml/badge.svg)](https://github.com/KOSASIH/Elysium-Cognitive-Core/actions/workflows/codeql.yml)
+[![Mark stale issues and pull requests](https://github.com/KOSASIH/Elysium-Cognitive-Core/actions/workflows/stale.yml/badge.svg)](https://github.com/KOSASIH/Elysium-Cognitive-Core/actions/workflows/stale.yml)
 
 # Elysium-Cognitive-Core
 An super advanced high-tech artificial general intelligent system. 
